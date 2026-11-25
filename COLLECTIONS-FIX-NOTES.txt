@@ -1,0 +1,5 @@
+Collections fix:
+- Removed the global CSS import and misplaced client directive from app/collections.tsx.
+- globals.css is imported once from app/layout.tsx, which is the correct Next.js location.
+- Replaced the Collections CSS with isolated responsive styles and a subtle hover scale-down.
+- Keep these image files in the project's public folder: nails.webp, eyes.webp, lips.webp.
